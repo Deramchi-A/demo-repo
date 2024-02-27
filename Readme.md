@@ -13,4 +13,5 @@ touche creat a file
 ls browse the files
 git branch (get you what branch you are working on)
 git remote -v (get you the gitub origin)
-git push origin  to   main
+git push origin main (export the changes to github)
+git pull origin  (to get changes from the github to your local)
