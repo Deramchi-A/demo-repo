@@ -38,3 +38,5 @@ browse the files
 (to generate the ssh public key)
 ##cat ~/.ssh/id_rsa.pub
 (to get the public key from the file on your pc)
+##ssh -T git@github.com 
+(command to test the ssh key)
