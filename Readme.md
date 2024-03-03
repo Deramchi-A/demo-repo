@@ -40,3 +40,8 @@ browse the files
 (to get the public key from the file on your pc)
 ##ssh -T git@github.com 
 (command to test the ssh key)
+##git init 
+(this comande create a git repository)
+##git remote add origin https://github.com/Deramchi-A/new.git(to add repository from the local and push it to github)
+##git push -u origin master or main
+(get it from git status)
