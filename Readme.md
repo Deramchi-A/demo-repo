@@ -10,7 +10,7 @@ create directory
 clear the directory
 ##rm 
 remove a file
-##touche 
+##touch 
 creat a file 
 ##ls 
 browse the files
