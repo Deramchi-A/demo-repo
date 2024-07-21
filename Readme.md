@@ -45,3 +45,19 @@ browse the files
 ##git remote add origin https://github.com/Deramchi-A/new.git(to add repository from the local and push it to github)
 ##git push -u origin master or main
 (get it from git status)
+1-Create a file:
+with open ("test.txt",'w') as fp:
+    fp.write('new line')
+2-Read a file:
+with open ("test.txt",'r') as fp:
+    fp.read()
+3-Rename and remove a file :
+ os.rename('old name','new name')
+ os.remove('file path')
+4-Copy and move a file:
+ shutil.copy('src file path','new path')
+ shutil.move('src file path','new path')
+5-Working with directories:
+ os.listdir('dir path') #Get all files.
+ shutil.rmtree('dir path')
+ shutil.copytree('src path','dist path') #copy dir
